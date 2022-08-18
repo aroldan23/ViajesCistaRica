@@ -1,0 +1,81 @@
+html{
+    height:100%;
+}
+body{
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top,#AA968A,#BFAFA6, #D4D2D5 );
+}
+.container{
+    margin: 15px auto;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    background-color: #D4D2D5;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 8px;
+}
+.container .elementoA label{
+    color: #AA968A;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+.container .elementoA input{
+    width: 100%;
+    font-family:'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 10px 5px;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #AA968A;
+    margin-bottom: 56px;
+    transition: border-color 1s ease-out 100ms;
+}
+.container .elementoA input:focus{
+    outline: none;
+    border-color: brown;
+}
+ #ingresar{
+    border: none; 
+    border-radius: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 11px;
+}
+ #ingresar:hover{
+    background-color: #BFAFA6;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #AA968A;
+}
+#ingreso{
+    height: 65px;
+    margin-bottom: 20px;
+}
+.Botones_adicionales{
+    margin-bottom: 10px;
+    
+}
+.Botones_adicionales input[type="button"], .Botones_adicionales input[type = "reset"]{
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 5px;
+    cursor:pointer;
+    background-color:#D4D2D5;
+}
+.Botones_adicionales{
+    float: left;
+}
+#boton_limpiar{
+    float: left;
+    background-color:#D4D2D5;
+}
+
