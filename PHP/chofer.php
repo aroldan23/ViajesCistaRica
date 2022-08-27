@@ -10,19 +10,19 @@
 <body>
     <aside>
         <p> Menu de chofer </p>
-        <a href="javascript:void(0)">
+        <a href="../chofer/reportarUsuario.php">
           <i class="fa fa-user-o" aria-hidden="true"></i>
-          Aprobacion cliente
+          Reportar Usuario
         </a>
-        <a href="javascript:void(0)">
+        <a href="../chofer/rutasChofer.php">
           <i class="fa fa-laptop" aria-hidden="true"></i>
           Rutas
         </a>
-        <a href="javascript:void(0)">
+        <a href="../chofer/saldoChofer.php">
           <i class="fa fa-clone" aria-hidden="true"></i>
           Saldo
         </a>
-        <a href="javascript:void(0)">
+        <a href="../chofer/viajesChofer.php">
           <i class="fa fa-star-o" aria-hidden="true"></i>
          Viajes Realizados
         </a>
@@ -31,5 +31,6 @@
           Salir
         </a>
       </aside>
+
 </body>
 </html>

@@ -10,26 +10,24 @@
 <body>
     <aside>
         <p> Menu de Administrador </p>
-        <a href="javascript:void(0)">
+        <a href="../admin/reportesclientes.php">
           <i class="fa fa-user-o" aria-hidden="true"></i>
           Reportes Clientes
         </a>
-        <a href="javascript:void(0)">
+        <a href="../admin/reporteschoferes.php">
           <i class="fa fa-laptop" aria-hidden="true"></i>
           Reportes Choferes
         </a>
-        <a href="javascript:void(0)">
+        <a href="../admin/adminusuarios.php">
           <i class="fa fa-clone" aria-hidden="true"></i>
-          Administar Chofer
-        </a>
-        <a href="javascript:void(0)">
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-         Opciones adicionales de sistema
+          Administar Usuarios
         </a>
         <a href="../PHP/cerrarSesion.php">
           <i class="fa fa-trash-o" aria-hidden="true"></i>
           Salir
         </a>
       </aside>
+      <h1>
+</h1>
 </body>
 </html>

@@ -10,21 +10,21 @@
 <body>
     <aside>
         <p> Menu de clientes </p>
-        <a href="javascript:void(0)">
+        <a href="../usuario/deposito.php">
           <i class="fa fa-user-o" aria-hidden="true"></i>
-          Monedero electronico
+          Deposito
         </a>
-        <a href="javascript:void(0)">
+        <a href="../usuario/monedero.php">
           <i class="fa fa-laptop" aria-hidden="true"></i>
+          Monedero
+        </a>
+        <a href="../usuario/rutas.php">
+          <i class="fa fa-clone" aria-hidden="true"></i>
           Rutas
         </a>
-        <a href="javascript:void(0)">
+        <a href="../usuario/reportarUsuario.php">
           <i class="fa fa-clone" aria-hidden="true"></i>
-          Gastos
-        </a>
-        <a href="javascript:void(0)">
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-         Viajes Realizados
+          Reportar Chofer
         </a>
         <a href="../PHP/cerrarSesion.php">
           <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -32,4 +32,4 @@
         </a>
     </aside>
 </body>
-</html>
+</html>s
